@@ -26,3 +26,4 @@ node_modules/
 # ignore config file
 wp-config.php
 /.htaccess
+phpmyadmin/
