@@ -1,0 +1,115 @@
+@media only screen and (max-width: 670px) {
+  /* common */
+  .inner {
+    max-width: 80%;
+  }
+	
+  .sp-top-buttom {
+    display: block;
+  }
+
+  /* navigation */
+  .nav-bar {
+  bottom: 0;
+  box-shadow: 0 3px 3px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-content {
+    text-align: center;
+  }
+
+  .nav-content .fa {
+    display: block;
+  }
+  .nav-content li {
+    font-size: 12px;
+    margin: 20px 17px;
+  }
+
+  /* intro */
+  .intro-section {
+    height: 100vh;
+	width: 100%;
+  }
+	
+	.intro-wrapper {
+		text-align: center;
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+  .intro-title {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .intro-wrapper {
+    overflow-wrap: anywhere;
+    text-align: left!important;
+  }
+
+  /* about */
+  .about-text-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* works */
+  .my-gallery .work-item {
+    width: 80%;
+  }
+
+  .figcaption-wrapper {
+    margin-bottom: 10%;
+  }
+
+  /* profile */
+
+  .profile-wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 50%;
+  }
+
+  .profile-text {
+    width: 100%;
+  }
+
+  .profile-datalist {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* skills */
+  .skills-list-wrapper {
+    flex-direction: column;
+  }
+
+  .skills-item {
+    width: 100%;
+    padding-bottom: 30%;
+  }
+
+  /*footer */
+  .footer-copyright{
+    padding-bottom: 90px;
+    background-color: gray;
+    color: white;
+  }
+
+  /* single */
+  .singlepost-wrapper {
+    width: 100%;
+  }
+
+  .page-section .inner {
+    width: 100%;
+  }
+}
