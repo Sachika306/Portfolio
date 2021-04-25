@@ -33,7 +33,7 @@
             <a href="<?php is_home() ? print '#profile' : print home_url().'/#profile'; ?>"><i class="fa fa-user fa-2x"></i>PROFILE</a>
           </li>
           <li class="nav-menuitem openSans">
-            <a href="<?php is_home() ? print '#skills' : print home_url().'/#skills'; ?>"><i class="fa fa-check fa-2x"></i>SKILL</a>
+            <a href="<?php is_home() ? print '#skill' : print home_url().'/#skills'; ?>"><i class="fa fa-check fa-2x"></i>SKILL</a>
           </li>
           <li class="nav-menuitem openSans">
             <a href="<?php is_home() ? print '#blog' : print home_url().'/#blog'; ?>"><i class="fa fa-pencil fa-2x"></i>BLOG</a>

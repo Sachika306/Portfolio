@@ -65,7 +65,6 @@
   }
 
   /* profile */
-
   .profile-wrapper {
     width: 100%;
     flex-wrap: wrap;
@@ -95,6 +94,19 @@
   .skills-item {
     width: 100%;
     padding-bottom: 30%;
+  }
+
+  /* blog */
+  .blog-wrapper {
+    width: 100%;
+  }
+
+  .content-wrapper h1{
+    font-size: 30px;
+  }
+
+  .content-wrapper {
+    padding: 10%;
   }
 
   /*footer */

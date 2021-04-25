@@ -13,7 +13,7 @@
           <?php 
           while (have_posts()) { 
           the_post(); ?>
-            <li><a href="<?php echo get_the_permalink(); ?>"><?php the_title(); ?></a></li>
+            <li><a href="<?php echo get_the_permalink(); ?>"><?php the_title(); ?></a>（<?php echo get_the_date(); ?>）</li>
           <?php } ?>
         </ul>
         <div class="pagination">
