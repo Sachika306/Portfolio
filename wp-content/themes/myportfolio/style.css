@@ -15,8 +15,6 @@ body {
 
 p {
   line-height: 2;
-  font-size: 17px;
-  letter-spacing: 1.6px;
 }
 
 a {
@@ -422,6 +420,8 @@ figure {
 
 .page-textbox-description {
   margin: 5vh auto;
+  font-size: 17px;
+  letter-spacing: 1.6px;
 }
 
 .page-textbox-description ul {
